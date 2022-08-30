@@ -1,0 +1,25 @@
+.score-board {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    font-size: 1.9rem;
+    background-color: transparent;
+    margin: 3rem auto;
+    font-weight: bold;
+
+    
+
+    color: #fff;
+}  
+
+
+.scoreboard-x {
+    color: #DFFF00;
+}
+
+
+.scoreboard-o {
+    color: #DE3163;
+}

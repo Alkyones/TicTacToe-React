@@ -1,0 +1,26 @@
+.gameBox{
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 7%;
+    box-shadow: 0px 0px 8px #888;
+    width: 9rem;
+    height: 9rem;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 0.2rem;
+    line-height: 2rem;
+}
+
+.gameBox:hover{
+    box-shadow: 0px 0px 15px #888;
+}
+
+.X {
+    color: #DFFF00;
+}
+
+.O {
+    color: #DE3163;
+}
