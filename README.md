@@ -5,7 +5,7 @@ Responsive TicTacToe Game
 - Modern UI.
 - 
 
-![preview](/s1.png)
+![preview](/src/s1.png)
 
 (This project is under development and open for contributions)
 
