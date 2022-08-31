@@ -6,7 +6,7 @@ import {Board} from './components/Board';
 import {ScoreBoard} from './components/ScoreBoard';
 import {ResetButton} from './components/ResetButton';
  
-
+var moves = 0;
 function App() {
   // 0  1  2 //
   // 3  4  5 //
@@ -22,6 +22,7 @@ function App() {
     [0,4,8]
   ]
 
+
   //create initial board with null value
   const [board, setBoard] = useState(Array(9).fill(null))
   const [xPlayer, setXPlayer] = useState(true) // game always starts with X
@@ -32,6 +33,7 @@ function App() {
   const resetBoard = () => {
     setGameFinished(false);
     setBoard(Array(9).fill(null));
+    moves = 0;
 
   }
 
@@ -44,10 +46,14 @@ function App() {
         return value
       }
     });
-
+    
+    moves += 1;
     const winnerPlayer = checkWin(updateBoard);
-
+    
+   
+ 
     if(winnerPlayer) {
+    
       if(winnerPlayer === 'O'){
         let {oPlayerScore} = scoreBoard;
         oPlayerScore += 1;
@@ -61,6 +67,10 @@ function App() {
 
     setBoard(updateBoard);
     setXPlayer(!xPlayer);
+    
+
+    // updateBoard after no moves left
+    if(moves === 9){setTimeout(resetBoard, 2000);}
 
   }
 
@@ -70,6 +80,7 @@ function App() {
 
       if (board[x] && board[x] === board[y] && board[y] === board[z]){
         setGameFinished(true); // declare game finished
+        
         return board[x];
       }
   }};
