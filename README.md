@@ -6,7 +6,15 @@ Responsive TicTacToe Game
 
 ![preview](/src/s1.png)
 
+# New Release!
+- Now user can choose how many rounds will be played.
+- Winner page after player hits the score.
+
+![winner](/src/winnerO.png)
+
+
 (This project is under development and open for contributions)
+
 
 # Upcoming Features
 - Multiplayer option.
