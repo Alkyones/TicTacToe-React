@@ -17,7 +17,7 @@ Responsive TicTacToe Game
 
 
 # Upcoming Features
-- Multiplayer option.
-- Setting up how many rounds will be played.
-- Changeable font colors and sizes.
-- Support for mobile devices.
+- Multiplayer option.  :soon:
+- Setting up how many rounds will be played.  :white_check_mark:
+- Changeable font colors and sizes.  :soon:
+- Support for mobile devices.  :soon:
