@@ -8,7 +8,7 @@ export const Board = ({board, onClick}) => {
   return (
     <div className='gameBoard'>
         {board.map((value, index) => {
-            return <Box value={value} onClick={() => value === null && onClick(index)} />
+            return <Box key={index} value={value} onClick={() => value === null && onClick(index)} />
         })}
     </div>
   )
