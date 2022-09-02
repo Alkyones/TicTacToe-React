@@ -4,14 +4,15 @@
     background-color: #ea923f;
     color: #e0dfdf;
     cursor: pointer;
-    font-size: 2.2rem;
+    font-size: 2.2vw;
     font-family: monospace;
     margin: 0 auto;
     margin-top: 3rem;
+    width: 34vw;
     padding: 1rem;
     display: block;
 
-    transition: all 1s ease-in-out
+    transition: all 0.2s ease-in-out
 }
 
 .resetBtn:hover{

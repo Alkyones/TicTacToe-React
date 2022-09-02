@@ -1,6 +1,6 @@
 .gameBoard {
     display: grid;
-    grid-template-columns: repeat(3, 12rem);
+    grid-template-columns: repeat(3, 12vw);
     place-items: center;
     justify-content: center;
 }
