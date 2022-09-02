@@ -6,10 +6,18 @@ Responsive TicTacToe Game
 
 ![preview](/src/s1.png)
 
+# New Release!
+- Now user can choose how many rounds will be played.
+- Winner page after player hits the score.
+
+![winner](/src/winnerO.png)
+
+
 (This project is under development and open for contributions)
 
+
 # Upcoming Features
-- Multiplayer option.
-- Setting up how many rounds will be played.
-- Changeable font colors and sizes.
-- Support for mobile devices.
+- Multiplayer option.  :soon:
+- Setting up how many rounds will be played.  :white_check_mark:
+- Changeable font colors and sizes.  :soon:
+- Support for mobile devices.  :soon:
